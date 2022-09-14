@@ -20,8 +20,8 @@
    * colors
    */
 
-  --raw-seinna: hsl(24, 74%, 58%);
-  --sizzling-sunrise: hsl(51, 95%, 54%);
+  --raw-seinna: #0000ff;
+  --sizzling-sunrise: #73c2fb;
   --scarlet: hsl(13, 96%, 47%);
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
@@ -198,7 +198,15 @@ body.active { overflow: hidden; }
 
 .h4 { font-size: var(--fs-5); }
 
-.w-100 { width: 100%; }
+.w-100 { 
+  width: 100%;
+
+}
+
+.head_shot {
+  box-shadow: 0px 0px 5px 5px #a7aeb4; 
+  border-radius: 10px;
+}
 
 .btn {
   max-width: max-content;
@@ -225,7 +233,7 @@ body.active { overflow: hidden; }
   color: var(--black);
 }
 
-.btn-secondary:is(:hover, :focus) { --raw-seinna: hsl(24, 74%, 64%); }
+.btn-secondary:is(:hover, :focus) { --raw-seinna: #73c2fb; }
 
 .section-subtitle {
   position: relative;
