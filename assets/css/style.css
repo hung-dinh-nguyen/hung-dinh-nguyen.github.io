@@ -503,7 +503,7 @@ main { overflow-x: hidden; }
 
 .stats { 
   padding-block: var(--section-padding); 
-  margin-top: -150px; 
+  margin-top: -100px; 
 
 }
 
@@ -572,7 +572,7 @@ main { overflow-x: hidden; }
 }
 
 .head_shot {
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 .hire {
@@ -1133,7 +1133,7 @@ textarea.input-field {
   .hero {
     position: relative;
     height: 100vh;
-    margin-top: -100px; 
+    margin-top: -25px; 
   }
 
   .hero-banner {
@@ -1146,7 +1146,7 @@ textarea.input-field {
     height: 100%;
     width: auto;
     margin-inline: auto;
-    border-radius: 10px;
+    border-radius: 12px;
 
   }
 
