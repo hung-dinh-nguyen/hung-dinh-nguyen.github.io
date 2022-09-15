@@ -224,7 +224,7 @@ body.active { overflow: hidden; }
   color: var(--black);
 }
 
-.btn-secondary:is(:hover, :focus) { --raw-seinna: hsl(24, 74%, 64%); }
+.btn-secondary:is(:hover, :focus) { --raw-seinna: #66D3FA; }
 
 .section-subtitle {
   position: relative;
@@ -572,10 +572,11 @@ main { overflow-x: hidden; }
 }
 
 .head_shot {
-  filter: drop-shadow(
-    1px 2px 4px hsl(204.7,100%,50%)
-  );
   border-radius: 10px;
+}
+
+.hire {
+  color: inherit;
 }
 
 .about .btn {
@@ -1145,6 +1146,8 @@ textarea.input-field {
     height: 100%;
     width: auto;
     margin-inline: auto;
+    border-radius: 10px;
+
   }
 
   .hero-content {
