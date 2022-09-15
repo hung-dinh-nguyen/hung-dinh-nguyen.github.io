@@ -467,24 +467,27 @@ main { overflow-x: hidden; }
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 25px;
   margin-bottom: var(--section-padding);
 }
 
 .hero-banner {
   max-width: 500px;
   width: 125%;
-  margin-bottom: 30px;
-  border-radius: 12px;
 
 }
 
 :is(.hero-social-list, .scroll-down) { display: none; }
 
-.hero-content { max-width: 500px; }
+.hero-content { 
+  max-width: 500px; 
+  margin-top: 30px;
+}
 
 .hero-banner figure {
   margin-bottom: 20px;
+  border-radius: 12px;
+
 }
 
 .hero-title {
@@ -1175,7 +1178,7 @@ textarea.input-field {
   .hero-content {
     --color-primary: var(--white);
     position: absolute;
-    top: 50%;
+    top: 40%;
     filter: drop-shadow(2px 4px 10px var(--black));
   }
 
