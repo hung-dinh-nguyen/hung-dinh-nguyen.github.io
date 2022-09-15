@@ -467,7 +467,7 @@ main { overflow-x: hidden; }
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 115px;
+  padding-top: 50px;
   margin-bottom: var(--section-padding);
 }
 
@@ -475,15 +475,26 @@ main { overflow-x: hidden; }
   max-width: 500px;
   width: 125%;
   margin-bottom: 30px;
+  border-radius: 12px;
+
 }
 
 :is(.hero-social-list, .scroll-down) { display: none; }
 
 .hero-content { max-width: 500px; }
 
+.hero-banner figure {
+  margin-bottom: 20px;
+}
+
 .hero-title {
   text-align: center;
   margin-bottom: 30px;
+}
+
+.hero-banner img {
+  border-radius: 12px;
+
 }
 
 .aspiring {
@@ -1140,6 +1151,8 @@ textarea.input-field {
     max-width: unset;
     height: 100%;
     margin-bottom: 0;
+    border-radius: 12px;
+
   }
 
   .hero img {
@@ -1149,6 +1162,15 @@ textarea.input-field {
     border-radius: 12px;
 
   }
+
+  .hero source {
+    height: 100%;
+    width: auto;
+    margin-inline: auto;
+    border-radius: 12px;
+
+  }
+
 
   .hero-content {
     --color-primary: var(--white);
