@@ -587,11 +587,13 @@ main { overflow-x: hidden; }
 
 .hire {
   color: inherit;
+  text-align: center
 }
 
 .about .btn {
   max-width: unset;
   width: 100%;
+  text-align: center
 }
 
 .about .btn-secondary { margin-bottom: 10px; }
